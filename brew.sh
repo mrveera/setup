@@ -31,7 +31,7 @@ brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
+brew install gnu-sed #--with-default-names
 # Install Bash 4.
 # brew install bash
 brew tap homebrew/versions
@@ -63,17 +63,17 @@ LINE='eval "$(rbenv init -)"'
 grep -q "$LINE" ~/.extra || echo "$LINE" >> ~/.extra
 
 # Install more recent versions of some OS X tools.
-brew install vim --override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
+brew install vim #--override-system-vi
+#brew install homebrew/dupes/grep
+#brew install homebrew/dupes/openssh
+#brew install homebrew/dupes/screen
+#brew install homebrew/php/php55 --with-gmp
 
 # Install font tools.
-brew tap bramstein/webfonttools
-brew install sfnt2woff
-brew install sfnt2woff-zopfli
-brew install woff2
+#brew tap bramstein/webfonttools
+#brew install sfnt2woff
+#brew install sfnt2woff-zopfli
+#brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 # brew install aircrack-ng
@@ -133,31 +133,31 @@ brew install tree
 # brew link libxslt --force
 
 # Install Heroku
-brew install heroku-toolbelt
-heroku update
+#brew install heroku-toolbelt
+#heroku update
 
 # Install Cask
-brew install caskroom/cask/brew-cask
-brew tap caskroom/versions
+#brew install caskroom/cask/brew-cask
+#brew tap caskroom/versions
 
 # Core casks
 # brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2
-brew cask install --appdir="~/Applications" java
+#brew cask install --appdir="~/Applications" java
 # brew cask install --appdir="~/Applications" xquartz
 
 # Development tool casks
 # brew cask install --appdir="/Applications" sublime-text
-brew cask install --appdir="/Applications" atom
-brew cask install --appdir="/Applications" virtualbox
+#brew cask install --appdir="/Applications" atom
+#brew cask install --appdir="/Applications" virtualbox
 # brew cask install --appdir="/Applications" vagrant
 # brew cask install --appdir="/Applications" macdown
 
 # Misc casks
-brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" firefox
+#brew cask install --appdir="/Applications" google-chrome
+#brew cask install --appdir="/Applications" firefox
 # brew cask install --appdir="/Applications" skype
-brew cask install --appdir="/Applications" slack
+#brew cask install --appdir="/Applications" slack
 # brew cask install --appdir="/Applications" dropbox
 # brew cask install --appdir="/Applications" evernote
 # brew cask install --appdir="/Applications" 1password
